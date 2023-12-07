@@ -1,0 +1,329 @@
+body {
+  display: block;
+  margin: 0px;
+  background: #f5f5f5;
+  font-family: arial;
+}
+
+/* -------header------- */
+
+header{
+  display: flex;
+  justify-content: center;
+  background: #f53e2d;
+}
+
+.topbox{
+  width: 62%;
+}
+
+.topheader {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+  background: #f53e2d;
+}
+
+.midheader {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+  background: rgb(245,62,45);
+  background: linear-gradient(180deg, rgba(245,62,45,1) 35%, rgba(254,101,50,1) 100%);
+}
+
+.topheader2{
+  display: flex;
+  font-size: 16px;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.topheader3{
+  float: right;
+  display: flex;
+  font-size: 16px;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.fbig {
+  display: block;
+  width: 3.5%;
+  margin: 0px 5px;
+}
+
+.nhe {
+  width: 3.5%;
+}
+
+.shopeelogo{
+  width: 12%;
+  height: 12%;
+  display: flex;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+
+.searchbar{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  outline: none;
+  padding: 0.50rem 0rem;
+  padding-left: 15px;
+  font-size: 18px;
+  width: 800px;
+  text-align: left;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+}
+
+.searchicon{
+  width: 5px;
+  height: 5px;
+}
+
+.cart{
+  width: 15%;
+  display: flex;
+  margin-top: 15px;
+  margin-right: 45px;
+}
+
+.header2 {
+  margin-bottom: 0px;
+  background: rgb(245,62,45);
+  background: linear-gradient(180deg, rgba(245,62,45,1) 35%, rgba(254,101,50,1) 100%);
+}
+
+.header3{
+  background: #fe6532;
+}
+
+.bottombox{
+  width: 62%;
+  background-color: #fe6532;
+}
+
+.bottomheader{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+  background: #fe6532;
+}
+
+.bottomtext{
+  display: flex;
+  font-size: 12px;
+  align-items: flex-start;
+  padding: 0px;
+  margin-top: 0px;
+  margin-left: 194px;
+  background: #fe6532;
+}
+
+/* -------shopeemall------- */
+
+.shopeemall{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  padding-bottom: 0px;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffffff;
+}
+
+.shopeemallbox{
+  width: 62%;
+}
+
+.christmassale{
+  width: 66.7%;
+  float: left;
+  padding-right: 5px;
+}
+
+.hanriver{
+  width: 32.7%;
+}
+
+.milk{
+  width: 20.3%;
+  position: absolute;
+}
+
+.bottomshopeemall{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffffff;
+}
+
+.bottomshopeemallbox{
+  width: 62%;
+  padding-top: 15px;
+  margin-top: 0px;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+  margin-left: 3px;
+  margin-right: 12px;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 15px;
+  font-family: arial;
+  color: black;
+  float: left;
+}
+
+.boxpic{
+  width: 50px;
+}
+
+/* -------categories------- */
+
+.categories {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  padding-bottom: 0px;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f5f5f5;
+}
+
+.categoriesbox{
+  width: 62%;
+  background: white;
+}
+
+.categoryboxes{
+  
+  width: 95.99px;
+  height: 115px;
+  background-color: white;
+  border: 1px solid #f4f4f4;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: arial;
+  color: black;
+  float: left;
+}
+
+.catboxpic{
+  width: 65px;
+}
+
+/* -------flashdeals------- */
+
+.flashdeals {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  padding-bottom: 0px;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f5f5f5;
+}
+
+.flashdealsbox{
+  width: 62%;
+  background: white;
+}
+
+.flashdealslogo{
+  padding: 30px;
+  padding-bottom: 0px;
+  padding-left: 50px;
+}
+
+.flashdealsboxes{
+
+  width: 166.5px;
+  height: 275px;
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+  margin: 0px;
+  font-size: 25px;
+  font-family: arial;
+
+  color: #f53e2d;
+  float: left;
+}
+
+.flashboxpic{
+  width: 175px;
+  padding-bottom: 30px;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 175px;
+}
+.image2 {
+  position: absolute;
+  width: 175px;
+}
+
+.bar{
+  width: 80%;
+}
+
+/* -------ads------- */
+
+.ads {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  padding-bottom: 0px;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f5f5f5;
+}
+
+.adsbox{
+  width: 62%;
+}
+
+.adspic{
+  width: 100%;
+}
